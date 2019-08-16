@@ -12,11 +12,9 @@
         android:theme="@style/AppTheme.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
 
-
         <activity
             android:name="com.datanapps.androidsearchview.MainActivity"
             android:launchMode="singleTop">
-
             <meta-data
                 android:name="android.app.default_searchable"
                 android:value="com.datanapps.androidsearchview.SearchResultsActivity"/>
@@ -26,24 +24,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
 
-
         </activity>
-
-
-
 
         <activity
             android:name="com.datanapps.androidsearchview.SearchResultsActivity"
-            android:label=""
             android:launchMode="singleTop"
             android:parentActivityName=".MainActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.datanapps.androidsearchview.MainActivity" />
-            <!-- meta tag and intent filter go into results activity -->
+
             <meta-data
                 android:name="android.app.searchable"
                 android:resource="@xml/searchable" />
+
             <intent-filter>
                 <action android:name="android.intent.action.SEARCH" />
             </intent-filter>
