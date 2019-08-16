@@ -5,6 +5,8 @@ Please use its very cool  and reduce boiler code instead of few steps.
 
 
 
+![alt text](https://github.com/datanapps/AndroidSearchView/blob/master/screens/code_structure.PNG)
+
 
 ### Download APK : 
 
