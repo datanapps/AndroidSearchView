@@ -3,7 +3,12 @@ android SearchView (androidx.appcompat.widget.SearchView) widget is very helpful
 Please use its very cool  and reduce boiler code instead of few steps.
 
 
+### Review : 
+[![See](https://img.youtube.com/vi/Io65s9TJ6Mo/0.jpg)](https://www.youtube.com/watch?v=Io65s9TJ6Mo)
 
+
+
+### Code structure : 
 
 ![alt text](https://github.com/datanapps/AndroidSearchView/blob/master/screens/code_structure.PNG)
 
