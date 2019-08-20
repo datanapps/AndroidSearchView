@@ -15,7 +15,7 @@
         app:layout_constraintTop_toTopOf="parent">
 
         <androidx.appcompat.widget.Toolbar
-            android:id="@+id/toolbar"
+            android:id="@+id/toolBarSearchResult"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:navigationIcon="?attr/homeAsUpIndicator"
@@ -36,7 +36,7 @@
     </com.google.android.material.appbar.AppBarLayout>
 
     <TextView
-        android:id="@+id/textview"
+        android:id="@+id/resultTVSearchResultActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Searcher screen"
